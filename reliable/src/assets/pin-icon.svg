@@ -1,0 +1,14 @@
+<svg id="pin-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="28" viewBox="0 0 28 28">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff4237"/>
+      <stop offset="1" stop-color="#a4130a"/>
+    </linearGradient>
+  </defs>
+  <circle id="Ellipse_21" data-name="Ellipse 21" cx="14" cy="14" r="14" fill="url(#linear-gradient)"/>
+  <g id="Group_346" data-name="Group 346" transform="translate(-428.418 -21.5)">
+    <g id="Group_90" data-name="Group 90" transform="translate(437.539 28.765)">
+      <path id="Path_39" data-name="Path 39" d="M442.418,28.765a4.884,4.884,0,0,0-4.879,4.879c0,3.339,4.366,8.24,4.552,8.447a.439.439,0,0,0,.654,0c.186-.207,4.552-5.108,4.552-8.447A4.884,4.884,0,0,0,442.418,28.765Zm0,7.333a2.455,2.455,0,1,1,2.455-2.455A2.457,2.457,0,0,1,442.418,36.1Z" transform="translate(-437.539 -28.765)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

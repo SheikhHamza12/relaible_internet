@@ -1,0 +1,141 @@
+.wrapper {
+  width: 100%;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.header {
+  background-image: url(../../assets/home-banner.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: cover;
+}
+
+.header-image{
+  margin-top: 40px;
+  width: 60% !important;
+}
+
+.header-nav{
+  margin-top: 40px;
+}
+.header-nav :hover{
+  color: red;
+}
+
+.header-nav a {
+  text-transform: uppercase;
+  color: black;
+  justify-content: center;
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+.header-nav-button {
+  color: white;
+  background-color: black;
+  padding: 5px 10px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  justify-content: end;
+  font-size: 16px;
+  margin-top: 40px;
+}
+
+.header-nav-button a{
+  color: white;
+}
+.header-nav-button :hover{
+  color: red;
+}
+
+.header-content-left {
+  margin-top: 100px;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.header-content-left-list li {
+  list-style: none;
+}
+
+.header-content-left span:first-child {
+  border-bottom: 5px solid;
+  color: black;
+  padding-right: 10px;
+}
+
+.header-content-left span:last-child {
+  border-bottom: 5px solid;
+  color: red;
+  border-color: red;
+}
+
+.header-content-left-list {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.header-content-left-list span {
+  margin-right: 10px;
+}
+
+.header-content-right {
+  width: 100%;
+}
+@media (max-width: 1200px) {
+  .header-content-left{
+    font-size: 45px;
+  }
+
+  .header-content-left-list {
+    font-size: 30px;
+  }
+}
+@media (max-width: 992px) {
+  .header-content-right{
+    margin-top: 40px;
+  }
+  .header-content-left{
+    font-size: 36px;
+  }
+
+  .header-content-left-list {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 778px) {
+  .header-image{
+    width: 80%;
+  }
+
+  .header-content-right{
+    margin-top: 50px;
+  }
+
+  .header-nav-button{
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 576px){
+.header-image {
+    width: 100%;
+}
+
+.header-content-right{
+ margin-top: 0;
+}
+}
+
+@media (max-width: 480px){
+  .header-image {
+      width: 90%;
+  }
+}

@@ -1,0 +1,137 @@
+.wrapper {
+  width: 100%;
+  max-width: 80%;
+  margin: 0 auto;
+}
+.contact-header {
+  height: 350px;
+  background-image: url(../../assets/home-banner.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: cover;
+}
+.contact-heading {
+  margin-top: 90px;
+}
+
+.contact-heading h3 {
+  color: #ff4237;
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.contact-heading h1 {
+  color: #000;
+  font-size: 70px;
+  font-weight: 500;
+}
+.contact-form {
+  border: 1px solid #707070;
+  border-radius: 40px;
+  padding: 50px 70px;
+}
+
+.contact-label input{
+  padding-left: 10px;
+}
+
+.contact-label textarea{
+  padding-left: 10px;
+}
+
+.submit-button {
+  background-color: #000;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 10px;
+  height: 60px;
+  width: 140px;
+}
+
+.getin-heading {
+  margin-top: 80px;
+}
+.getin-heading h4 {
+  color: #ff4237;
+  font-size: 25px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: -10px;
+}
+
+.getin-heading h2 {
+  color: #000;
+  font-size: 50px;
+  text-transform: capitalize;
+}
+
+.getin-address {
+  align-items: center;
+  border-radius: 30px;
+  box-shadow: 0 12px 99px rgb(0 0 0 / 13%);
+  height: 140px;
+  margin-bottom: 50px;
+  margin-left: 40px;
+  padding: 20px 30px;
+  width: 100%;
+  display: flex;
+}
+
+.pin-icon {
+  border-radius: 50%;
+  height: 85px;
+  width: 85px;
+  margin-left: -90px;
+}
+
+.address-box h5 {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.address-box p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.map-image img{
+  width: 100%;
+}
+@media (max-width: 1200px) {
+  .contact-heading h1{
+    font-size: 64px;
+  }
+}
+
+@media (max-width: 992px) {
+  .contact-heading h1{
+    font-size: 58px;
+  }
+}
+
+@media (max-width: 778px) {
+    .contact-heading h3{
+    font-size: 22px;
+  }
+  .contact-heading h1{
+    font-size: 40px;
+  }
+}
+@media (max-width: 576px) {
+  .submit-button {
+    font-size: 16px;
+  }
+  
+}
+
+@media (max-width: 480px) {
+  .contact-heading h1{
+  font-size: 35px;
+}
+}
